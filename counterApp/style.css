@@ -23,6 +23,7 @@ body{
     font-size: 34px;
     color: white;
     background-color: aqua;
+    cursor: pointer;
 }
 .minus-btn{
     height: 40px;
@@ -30,4 +31,32 @@ body{
     font-size: 34px;
     color: white;
     background-color: aqua;
+    cursor: pointer;
+}
+.reset-btn{
+    margin-top: 16px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    color: black;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+/* inputBox  */
+.user-input-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 16px;
+}
+.change-by{
+    height: 24px;
+    width: 48px;
+}
+.input-text-description{
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 400;
 }
