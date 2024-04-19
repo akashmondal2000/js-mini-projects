@@ -30,6 +30,10 @@ body{
     border-radius: 2px;
     cursor: pointer;
 }
+.submit-btn:disabled{
+    cursor: not-allowed;
+    background-color: #5f8ced;
+}
 
 .startGame-btn{
     height: 32px;
