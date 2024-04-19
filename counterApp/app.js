@@ -1,12 +1,14 @@
 const plusButton = document.querySelector(".plus-btn");
 const minusButton = document.querySelector('.minus-btn');
+const count = document.querySelector('.count');
 
 
 const increment = ()=>{
-    console.log("increment button Clicked");
+    
+   count.innerText = parseInt(count.innerText) + 1;
 }
 const decrement = () =>{
-    console.log("Decrement Button is Clicked");
+    count.innerText = parseInt(count.innerText) - 1;
 }
 
 
