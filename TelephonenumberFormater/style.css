@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+
+.mobileNumber-fild{
+    margin-top: 24px;
+    height: 30px;
+    width: 240px;
+    font-size: 24px;
+    text-align: start;
+    border: 2px solid #999b9e;
+    border-radius: 4px;
+
+}
+.number-text{
+    margin-top: 16px;
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 300;
+}
