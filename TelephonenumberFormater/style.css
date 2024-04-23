@@ -13,13 +13,13 @@ body{
     width: 240px;
     font-size: 24px;
     text-align: start;
-    border: 2px solid #999b9e;
-    border-radius: 4px;
+    border: 2px solid #484848;
+    border-radius: 2px;
 
 }
 .number-text{
     margin-top: 16px;
     font-size: 18px;
     font-family: "Roboto";
-    font-weight: 300;
+    font-weight: 400;
 }
