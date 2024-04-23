@@ -6,13 +6,16 @@
 .heading{
     font-family: 'Poppins';
     text-align: center;
+    height: 0;
 }
 
+/* toggle switch */
 .switch {
     position: relative;
     display: inline-block;
     width: 60px;
     height: 34px;
+    margin: 4px 0 0 4px;
   }
   .switch input { 
     opacity: 0;
@@ -62,4 +65,9 @@
   
   .slider.round:before {
     border-radius: 50%;
+  }
+
+  /* sub heading  */
+  .sub-text{
+    margin: 24px 0 0 0;
   }
