@@ -10,12 +10,17 @@ fullDerkMode.addEventListener("change", () => {
   } else {
     document.body.classList.remove("dark");
   }
+  // hare i chake both chaek box if first one is chacked second box also is chacked
+  containerDarkMode.checked = fullDerkMode.checked;
+  changeContainerDarkMode();
 });
 
-containerDarkMode.addEventListener("change", () => {
+const changeContainerDarkMode = () => {
   if (containerDarkMode.checked) {
     Container.classList.add("dark");
   } else {
     Container.classList.remove("dark");
   }
-});
+};
+
+containerDarkMode.addEventListener("change", changeContainerDarkMode);

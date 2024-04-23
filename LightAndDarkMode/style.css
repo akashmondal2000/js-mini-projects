@@ -97,6 +97,8 @@ input:checked + .slider:before {
   align-items: center;
   margin-top: 8px;
   margin-left: 34px;
+  background-color: white;
+  color: black;
 }
 .container-inner-text {
   font-size: 20px;
