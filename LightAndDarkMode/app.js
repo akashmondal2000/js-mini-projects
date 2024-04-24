@@ -20,26 +20,23 @@ fullDerkMode.addEventListener("change", () => {
 });
 
 const changeFullDarkMode = () => {
-  if (fullDerkMode.checked) {
-    document.body.classList.add("dark");
-    // use local storage for store full dark mode and containerDarkMode data
-    localStorage.setItem("fullDerkMode", true);
-  } else {
-    document.body.classList.remove("dark");
-    localStorage.setItem("fullDerkMode", false);
-  }
+  changeTheam(fullDerkMode,document.body,'fullDerkMode');
   // hare i chake both chaek box if first one is chacked second box also is chacked
-  containerDarkMode.checked = fullDerkMode.checked;
+  // containerDarkMode.checked = fullDerkMode.checked;
 };
 
 const changeContainerDarkMode = () => {
-  if (containerDarkMode.checked) {
-    Container.classList.add("dark");
-    localStorage.setItem("containerDarkMode", true);
-  } else {
-    Container.classList.remove("dark");
-    localStorage.setItem("containerDarkMode", false);
-  }
+  changeTheam(containerDarkMode,Container,'containerDarkMode');
 };
+
+const changeTheam = (checkbox,element,localStorageKey)=>{
+  if (checkbox.checked) {
+    element.classList.add("dark");
+    localStorage.setItem(localStorageKey, true);
+  } else {
+    element.classList.remove("dark");
+    localStorage.setItem(localStorageKey, false);
+  }
+}
 
 containerDarkMode.addEventListener("change", changeContainerDarkMode);
