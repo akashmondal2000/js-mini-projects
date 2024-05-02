@@ -3,7 +3,6 @@
     margin: 0;
 }
 
-
 /* https://meme-api.com/gimme/wholesomememes */
 
 .meme-button-div{
@@ -30,11 +29,25 @@
 
 /* Meme Container  */
 .meme-container{
-    width: 400px;
+    max-width: 400px;
     height: fit-content;
+    padding: 16px;
     text-align: center;
     margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .meme-img{
     width: 100%;
+    margin-top: 10px;
+}
+.meme-title{
+    font-size: 20px;
+    font-family: "Poppins";
+    font-weight: 500;
+}
+.meme-auther{
+    font-size: 12px;
+    font-family: "Poppins";
+    font-weight: 400;
+    margin-top: 10px;
 }
