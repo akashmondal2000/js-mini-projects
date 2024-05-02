@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* https://meme-api.com/gimme/wholesomememes */
+
+.meme-button-div{
+    height: 60px;
+    width: 240px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.meme-generate-button{
+    background: none;
+    border: none;
+    font-size: 20px;
+    font-family: 'Poppins';
+    color: #05ad32;
+    cursor: pointer;
+    transition: all 0.3s ease
+}
+.meme-generate-button:hover{
+    transform: rotate(360deg);
+    transform: scale(1.4);
+}

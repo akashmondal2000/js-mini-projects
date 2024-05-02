@@ -22,7 +22,7 @@ fullDerkMode.addEventListener("change", () => {
 const changeFullDarkMode = () => {
   changeTheam(fullDerkMode,document.body,'fullDerkMode');
   // hare i chake both chaek box if first one is chacked second box also is chacked
-  // containerDarkMode.checked = fullDerkMode.checked;
+  containerDarkMode.checked = fullDerkMode.checked;
 };
 
 const changeContainerDarkMode = () => {
